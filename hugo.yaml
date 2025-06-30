@@ -1,7 +1,7 @@
 baseURL: https://example.org/
 languageCode: zh-tw
 title: Note fot Clarity
-paginate: 5
+pagerSize: 5
 theme: ["PaperMod"]
 
 enableRobotsTXT: true
@@ -58,9 +58,9 @@ params:
   # profile-mode
   profileMode:
     enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
+    title: Mina Liu
+    subtitle: "I analyze data to bring clarity."
+    imageUrl: "https://images.pexels.com/photos/16141579/pexels-photo-16141579.jpeg"
     imageWidth: 120
     imageHeight: 120
     imageTitle: my image
@@ -72,8 +72,9 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Title: "Note for Clarity \U0001F44B"
+    Content: Hello, I'm Mina Liu. I analyze data to bring clarity. This is where I log my work, thinking, and imporvement.
+    imageUrl: "https://images.pexels.com/photos/16141579/pexels-photo-16141579.jpeg"
 
   socialIcons:
     - name: x
@@ -136,3 +137,7 @@ markup:
     # guessSyntax: true
     # lineNos: true
     # style: monokai
+
+caches:
+  images:
+    dir: :cacheDir/images
