@@ -70,9 +70,20 @@ params:
       - name: Tags
         url: tags
 
+  # search
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    # limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
+
   # home-info mode
   homeInfoParams:
-    Title: "Note for Clarity \U0001F44B"
+    Title: "Note for Clarity \U0001F50D\U00002728"
     Content: Hello, I'm Mina Liu. I analyze data to bring clarity. This is where I log my work, thinking, and imporvement.
     imageUrl: "https://images.pexels.com/photos/16141579/pexels-photo-16141579.jpeg"
 
@@ -141,3 +152,11 @@ markup:
 caches:
   images:
     dir: :cacheDir/images
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
+
+
