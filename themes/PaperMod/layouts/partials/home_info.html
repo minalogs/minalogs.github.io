@@ -1,6 +1,13 @@
 {{- with site.Params.homeInfoParams }}
 <article class="first-entry home-info">
     <header class="entry-header">
+        <div style="width: 150px; height: 150px; border-radius: 50%; overflow: hidden;">
+            <img draggable="false"
+                src="{{ .imageUrl | absURL }}"
+                alt="{{ .imageTitle | default "profile image" }}"
+                title="{{ .imageTitle }}"
+                style="width: 100%; height: 100%; object-fit: cover;">
+        </div>
         <h1>{{ .Title | markdownify }}</h1>
     </header>
     <div class="entry-content">
