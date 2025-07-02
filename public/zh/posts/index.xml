@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Note for Clarity</title>
+    <link>http://localhost:1313/zh/posts/</link>
+    <description>Recent content in Posts on Note for Clarity</description>
+    <image>
+      <title>Note for Clarity</title>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.147.9</generator>
+    <language>zh</language>
+    <lastBuildDate>Tue, 01 Jul 2025 01:00:49 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/zh/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>換 GitHub 帳號與 Hugo 子模組錯誤：解決兩個部署上的常見問題</title>
+      <link>http://localhost:1313/zh/posts/hugo-blog-deploy/</link>
+      <pubDate>Tue, 01 Jul 2025 01:00:49 +0800</pubDate>
+      <guid>http://localhost:1313/zh/posts/hugo-blog-deploy/</guid>
+      <description>Desc Text.</description>
+    </item>
+  </channel>
+</rss>

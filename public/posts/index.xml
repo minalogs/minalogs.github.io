@@ -10,15 +10,7 @@
       <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.147.9</generator>
-    <language>zh-tw</language>
-    <lastBuildDate>Tue, 01 Jul 2025 01:00:49 +0800</lastBuildDate>
+    <language>中文</language>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>換 GitHub 帳號與 Hugo 子模組錯誤：解決兩個部署上的常見問題</title>
-      <link>http://localhost:1313/posts/hugo-blog-deploy/</link>
-      <pubDate>Tue, 01 Jul 2025 01:00:49 +0800</pubDate>
-      <guid>http://localhost:1313/posts/hugo-blog-deploy/</guid>
-      <description>Desc Text.</description>
-    </item>
   </channel>
 </rss>

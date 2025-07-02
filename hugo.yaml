@@ -1,5 +1,10 @@
 baseURL: https://minalogs.github.io/
-languageCode: zh-tw
+languageCode: zh-TW
+languages:
+  中文:
+    weight: 1
+  English:
+    weight: 2
 title: Note for Clarity
 pagerSize: 5
 theme: ["PaperMod"]
@@ -127,18 +132,26 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: categories
-      name: categories
-      url: /categories/
+    - identifier: case-studies
+      name: case-studies
+      url: /zh-tw/case-studies/
       weight: 10
+    - identifier: training-logs
+      name: training-logs
+      url: /training-logs/
+      weight: 20
+    - identifier: workstreams
+      name: workstreams
+      url: /zh-tw/workstreams/
+      weight: 30
     - identifier: tags
       name: tags
       url: /tags/
-      weight: 20
+      weight: 40
     - identifier: example
       name: example.org
       url: https://example.org
-      weight: 30
+      weight: 50
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:

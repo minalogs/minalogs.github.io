@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/%F0%9F%87%BA%F0%9F%87%B8%20%20en-us/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="🇹🇼  zh-tw"
+                href="http://localhost:1313/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="🇺🇸  en-us"
+                href="http://localhost:1313/%F0%9F%87%BA%F0%9F%87%B8%20%20en-us/categories/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/%F0%9F%87%BA%F0%9F%87%B8%20%20en-us/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="🇹🇼  zh-tw"
+                href="http://localhost:1313/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="🇺🇸  en-us"
+                href="http://localhost:1313/%F0%9F%87%BA%F0%9F%87%B8%20%20en-us/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/%F0%9F%87%BA%F0%9F%87%B8%20%20en-us/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="🇹🇼  zh-tw"
+                href="http://localhost:1313/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="🇺🇸  en-us"
+                href="http://localhost:1313/%F0%9F%87%BA%F0%9F%87%B8%20%20en-us/tags/"
+                />
+  </url>
+</urlset>
