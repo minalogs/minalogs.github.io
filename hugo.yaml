@@ -134,24 +134,23 @@ menu:
   main:
     - identifier: case-studies
       name: case-studies
+      neme-zh: "專案研究"
       url: /zh-tw/case-studies/
-      weight: 10
+      weight: 20
     - identifier: training-logs
       name: training-logs
+      name-zh: "訓練洞察"
       url: /training-logs/
-      weight: 20
+      weight: 30
     - identifier: workstreams
       name: workstreams
+      name-zh: "思維習慣"
       url: /zh-tw/workstreams/
-      weight: 30
-    - identifier: tags
-      name: tags
-      url: /tags/
       weight: 40
     - identifier: example
       name: example.org
       url: https://example.org
-      weight: 50
+      weight: 60
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
