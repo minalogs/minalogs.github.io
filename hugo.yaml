@@ -135,7 +135,7 @@ menu:
     - identifier: case-studies
       name: case-studies
       neme-zh: "專案研究"
-      url: /zh-tw/case-studies/
+      url: /case-studies/
       weight: 20
     - identifier: training-logs
       name: training-logs
@@ -145,7 +145,7 @@ menu:
     - identifier: workstreams
       name: workstreams
       name-zh: "思維習慣"
-      url: /zh-tw/workstreams/
+      url: /workstreams/
       weight: 40
     - identifier: example
       name: example.org
