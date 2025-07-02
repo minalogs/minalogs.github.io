@@ -32,4 +32,6 @@ ShowPostNavLinks: true
 ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
+# 日常：願景 → 拆解 → 反饋
+# 職能：【創辦人視角 - 問題與價值】 → 【PM視角 - 問題拆解與解決方案】 → 【HR視角 - 成果與效益】
 ---

@@ -1,8 +1,9 @@
 baseURL: https://minalogs.github.io/
 languageCode: zh-tw
-title: Note fot Clarity
+title: Note for Clarity
 pagerSize: 5
 theme: ["PaperMod"]
+mainSections: ["posts", "summary"]
 
 enableRobotsTXT: true
 buildDrafts: false
