@@ -134,13 +134,33 @@ menu:
   main:
     - identifier: case-studies
       name: case-studies
-      neme-zh: "專案研究"
+      name-zh: "專案研究"
       url: /case-studies/
       weight: 20
+    - name: 資料結構與流程設計
+      url: /case-studies/data-design/
+      parent: case-studies
+      weight: 10
+    - name: 資料邏輯與系統重構
+      url: /case-studies/data-logic/
+      parent: case-studies
+      weight: 20
+    - name: 報表設計與洞察呈現
+      url: /case-studies/data-visuals/
+      parent: case-studies
+      weight: 30
     - identifier: training-logs
       name: training-logs
       name-zh: "訓練洞察"
       url: /training-logs/
+      weight: 30
+    - name: 訓練日誌 A
+      url: /training-logs/a/
+      parent: training-logs
+      weight: 30
+    - name: 訓練日誌 B
+      url: /training-logs/b/
+      parent: training-logs
       weight: 30
     - identifier: workstreams
       name: workstreams

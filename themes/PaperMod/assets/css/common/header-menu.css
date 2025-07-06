@@ -1,0 +1,83 @@
+.menu-item {
+  position: relative;
+}
+
+.menu-item .submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 150px;
+  background-color: white;
+  border: 1px solid var(--border);
+  z-index: 10;
+  padding: 0;
+  margin: 0;
+  border-radius: var(--radius) ;
+}
+
+.menu-item .submenu li {
+  list-style: none;
+  margin-inline-start: 0 !important;
+}
+
+.menu-item .submenu li a {
+  display: block;
+  padding: 1rem;
+  color: #333;
+  text-decoration: none;
+  border-radius: 0; /* 中間的預設不圓角 */
+  white-space: nowrap;
+}
+
+/* 第一個：只圓角上面兩角 */
+.menu-item .submenu li:first-child a {
+  border-top-left-radius: var(--radius);
+  border-top-right-radius: var(--radius);
+}
+
+/* 最後一個：只圓角下面兩角 */
+.menu-item .submenu li:last-child a {
+  border-bottom-left-radius: var(--radius);
+  border-bottom-right-radius: var(--radius);
+}
+
+
+.menu-item:hover .submenu {
+  display: block;
+}
+
+.menu-item .submenu li a:hover {
+  background-color: #f0f0f0;
+}
+
+.menu-item {
+  position: relative; /* ✅ 給 submenu 的 absolute 有參考點 */
+}
+
+.submenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 999;
+}
+
+.header, .nav {
+  overflow: hidden; /* ❌ 這會擋住 dropdown */
+  height: 60px;      /* ❌ 高度寫死也會擋住 dropdown */
+}
+
+.header, .nav {
+  overflow: visible !important;
+  height: auto !important;
+  position: relative; /* ✅ 讓 submenu 用 absolute 定位時以它為參考 */
+  z-index: 100;
+}
+
+#menu {
+  overflow-x: visible !important;
+}
+
+.nav .menu-item .submenu a {
+  line-height: 1.8rem !important;
+}
