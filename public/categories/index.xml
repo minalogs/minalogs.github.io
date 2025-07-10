@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Categories on Note for Clarity</title>
+    <title>Categories on Mina 的脈絡筆記</title>
     <link>http://localhost:1313/categories/</link>
-    <description>Recent content in Categories on Note for Clarity</description>
+    <description>Recent content in Categories on Mina 的脈絡筆記</description>
     <image>
-      <title>Note for Clarity</title>
+      <title>Mina 的脈絡筆記</title>
       <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.147.9</generator>
-    <language>中文</language>
+    <language>zh-TW</language>
+    <lastBuildDate>Tue, 01 Jul 2025 12:17:31 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How I Work 思維習慣</title>
+      <link>http://localhost:1313/categories/how-i-work-%E6%80%9D%E7%B6%AD%E7%BF%92%E6%85%A3/</link>
+      <pubDate>Tue, 01 Jul 2025 12:17:31 +0800</pubDate>
+      <guid>http://localhost:1313/categories/how-i-work-%E6%80%9D%E7%B6%AD%E7%BF%92%E6%85%A3/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

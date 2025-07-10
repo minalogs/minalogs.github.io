@@ -2,40 +2,54 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/english/categories/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="中文"
-                href="http://localhost:1313/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="english"
-                href="http://localhost:1313/english/categories/"
-                />
+    <loc>http://localhost:1313/english/tags/github/</loc>
+    <lastmod>2025-07-01T01:00:49+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/english/tags/hugo/</loc>
+    <lastmod>2025-07-01T01:00:49+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/english/posts/</loc>
+    <lastmod>2025-07-01T01:00:49+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/english/</loc>
+    <lastmod>2025-07-01T01:00:49+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="中文"
+                hreflang="zh-TW"
                 href="http://localhost:1313/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="english"
+                hreflang="en-US"
                 href="http://localhost:1313/english/"
                 />
   </url><url>
     <loc>http://localhost:1313/english/tags/</loc>
+    <lastmod>2025-07-01T01:00:49+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="中文"
+                hreflang="zh-TW"
                 href="http://localhost:1313/tags/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="english"
+                hreflang="en-US"
                 href="http://localhost:1313/english/tags/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/english/posts/%E6%8F%9B-github-%E5%B8%B3%E8%99%9F%E8%88%87-hugo-%E5%AD%90%E6%A8%A1%E7%B5%84%E9%8C%AF%E8%AA%A4%E8%A7%A3%E6%B1%BA%E5%85%A9%E5%80%8B%E9%83%A8%E7%BD%B2%E4%B8%8A%E7%9A%84%E5%B8%B8%E8%A6%8B%E5%95%8F%E9%A1%8C/</loc>
+    <lastmod>2025-07-01T01:00:49+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/english/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-TW"
+                href="http://localhost:1313/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/english/categories/"
                 />
   </url>
 </urlset>

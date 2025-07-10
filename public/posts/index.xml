@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on Note for Clarity</title>
+    <title>Posts on Mina 的脈絡筆記</title>
     <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on Note for Clarity</description>
+    <description>Recent content in Posts on Mina 的脈絡筆記</description>
     <image>
-      <title>Note for Clarity</title>
+      <title>Mina 的脈絡筆記</title>
       <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.147.9</generator>
-    <language>中文</language>
+    <language>zh-TW</language>
+    <lastBuildDate>Tue, 01 Jul 2025 01:00:49 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>換 GitHub 帳號與 Hugo 子模組錯誤：解決兩個部署上的常見問題</title>
+      <link>http://localhost:1313/posts/%E6%8F%9B-github-%E5%B8%B3%E8%99%9F%E8%88%87-hugo-%E5%AD%90%E6%A8%A1%E7%B5%84%E9%8C%AF%E8%AA%A4%E8%A7%A3%E6%B1%BA%E5%85%A9%E5%80%8B%E9%83%A8%E7%BD%B2%E4%B8%8A%E7%9A%84%E5%B8%B8%E8%A6%8B%E5%95%8F%E9%A1%8C/</link>
+      <pubDate>Tue, 01 Jul 2025 01:00:49 +0800</pubDate>
+      <guid>http://localhost:1313/posts/%E6%8F%9B-github-%E5%B8%B3%E8%99%9F%E8%88%87-hugo-%E5%AD%90%E6%A8%A1%E7%B5%84%E9%8C%AF%E8%AA%A4%E8%A7%A3%E6%B1%BA%E5%85%A9%E5%80%8B%E9%83%A8%E7%BD%B2%E4%B8%8A%E7%9A%84%E5%B8%B8%E8%A6%8B%E5%95%8F%E9%A1%8C/</guid>
+      <description>Desc Text.</description>
+    </item>
   </channel>
 </rss>

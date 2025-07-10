@@ -2,8 +2,20 @@ baseURL: https://minalogs.github.io/
 languageCode: zh-TW
 languages:
   中文:
+    contentDir: content/zh
+    disabled: false
+    languageCode: zh-TW
+    languageDirection: ltr
+    languageName: zh
+    title: "Mina 的脈絡筆記"
     weight: 1
-  English:
+  en-US:
+    contentDir: content/en
+    disabled: false
+    languageCode: en-US
+    languageDirection: ltr
+    languageName: en
+    title: "Mina Logs - Note for Clarity"
     weight: 2
 title: Note for Clarity
 pagerSize: 5

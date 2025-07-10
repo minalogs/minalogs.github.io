@@ -2,52 +2,54 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/tags/github/</loc>
+    <lastmod>2025-07-01T01:00:49+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/hugo/</loc>
+    <lastmod>2025-07-01T01:00:49+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-07-01T01:00:49+08:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-07-02T10:23:39+08:00</lastmod>
+    <lastmod>2025-07-01T01:00:49+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="zh"
+                hreflang="zh-TW"
                 href="http://localhost:1313/zh/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-US"
                 href="http://localhost:1313/"
                 />
   </url><url>
-    <loc>http://localhost:1313/summary/</loc>
-    <lastmod>2025-07-02T10:23:39+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/case-studies/</loc>
-  </url><url>
-    <loc>http://localhost:1313/training-logs/</loc>
-  </url><url>
-    <loc>http://localhost:1313/workstreams/</loc>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="http://localhost:1313/zh/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/categories/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/search/</loc>
-  </url><url>
     <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-07-01T01:00:49+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="zh"
+                hreflang="zh-TW"
                 href="http://localhost:1313/zh/tags/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-US"
                 href="http://localhost:1313/tags/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/posts/%E6%8F%9B-github-%E5%B8%B3%E8%99%9F%E8%88%87-hugo-%E5%AD%90%E6%A8%A1%E7%B5%84%E9%8C%AF%E8%AA%A4%E8%A7%A3%E6%B1%BA%E5%85%A9%E5%80%8B%E9%83%A8%E7%BD%B2%E4%B8%8A%E7%9A%84%E5%B8%B8%E8%A6%8B%E5%95%8F%E9%A1%8C/</loc>
+    <lastmod>2025-07-01T01:00:49+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-TW"
+                href="http://localhost:1313/zh/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/categories/"
                 />
   </url>
 </urlset>
